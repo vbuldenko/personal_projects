@@ -1,0 +1,122 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.hero {
+    background-image: url("images/torshov.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h1 {
+    padding: 5px 12px;
+    background: #1D3557;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 225px;
+    margin: 120px auto 15px auto;
+    border-radius: 10px
+}
+
+h2 {
+    background: #457B9D;
+    border-radius: 10px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.72px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 415px;
+    margin: 0 auto 120px auto;
+    padding: 5px 30px;
+}
+
+.activity {
+    background: #F1FAEE;
+    margin: 0;
+    padding: 60px 35px;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+}
+
+.activity div {
+    width: 200px;
+    margin: 60px 34px;
+}
+
+.activity p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #1D3557;
+    width: 200px;
+}
+
+.activity h4 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #1D3557;
+
+}
+
+.activity img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.guide {
+    background: #A8DADC;
+    width: 400px;
+    margin: 50px auto;
+    padding: 22px 13px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: 0 6px #1D3557;
+    color: #1D3557;
+}
+
+.guide p {
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.guide img {
+    width: 180px;
+    border-radius: 10px;
+}
+
+
